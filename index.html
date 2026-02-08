@@ -1,174 +1,165 @@
-<!DOCTYPE HTML>
-<!--
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Spectral by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="landing is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boyfriend Facts</title>
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      min-height: 100vh;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #eaeaea;
+    }
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<h1><a href="index.html">Spectral</a></h1>
-						<nav id="nav">
-							<ul>
-								<li class="special">
-									<a href="#menu" class="menuToggle"><span>Menu</span></a>
-									<div id="menu">
-										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="generic.html">Generic</a></li>
-											<li><a href="elements.html">Elements</a></li>
-											<li><a href="#">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
-										</ul>
-									</div>
-								</li>
-							</ul>
-						</nav>
-					</header>
+    .card {
+      background: rgba(20, 20, 20, 0.85);
+      padding: 30px;
+      border-radius: 18px;
+      max-width: 420px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+      backdrop-filter: blur(10px);
+    }
 
-				<!-- Banner -->
-					<section id="banner">
-						<div class="inner">
-							<h2>Spectral</h2>
-							<p>Another fine responsive<br />
-							site template freebie<br />
-							crafted by <a href="http://html5up.net">HTML5 UP</a>.</p>
-							<ul class="actions special">
-								<li><a href="#" class="button primary">Activate</a></li>
-							</ul>
-						</div>
-						<a href="#one" class="more scrolly">Learn More</a>
-					</section>
+    h1 {
+      margin-top: 0;
+      color: #ffffff;
+    }
 
-				<!-- One -->
-					<section id="one" class="wrapper style1 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Arcu aliquet vel lobortis ata nisl<br />
-								eget augue amet aliquet nisl cep donec</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
-							</header>
-							<ul class="icons major">
-								<li><span class="icon fa-gem major style1"><span class="label">Lorem</span></span></li>
-								<li><span class="icon fa-heart major style2"><span class="label">Ipsum</span></span></li>
-								<li><span class="icon solid fa-code major style3"><span class="label">Dolor</span></span></li>
-							</ul>
-						</div>
-					</section>
+    #fact {
+      font-size: 1.25rem;
+      margin: 20px 0;
+      line-height: 1.5;
+    }
 
-				<!-- Two -->
-					<section id="two" class="wrapper alt style2">
-						<section class="spotlight">
-							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2>Magna primis lobortis<br />
-								sed ullamcorper</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>Tortor dolore feugiat<br />
-								elementum magna</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
-								<h2>Augue eleifend aliquet<br />
-								sed condimentum</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-					</section>
+    #countdown {
+      font-size: 0.85rem;
+      color: #aaaaaa;
+      margin-bottom: 20px;
+    }
 
-				<!-- Three -->
-					<section id="three" class="wrapper style3 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Accumsan mus tortor nunc aliquet</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
-							</header>
-							<ul class="features">
-								<li class="icon fa-paper-plane">
-									<h3>Arcu accumsan</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon solid fa-laptop">
-									<h3>Ac Augue Eget</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon solid fa-code">
-									<h3>Mus Scelerisque</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon solid fa-headphones-alt">
-									<h3>Mauris Imperdiet</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-heart">
-									<h3>Aenean Primis</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-flag">
-									<h3>Tortor Ut</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-							</ul>
-						</div>
-					</section>
+    button {
+      background: #ff5c8a;
+      border: none;
+      color: white;
+      padding: 16px 26px;
+      font-size: 1.05rem;
+      border-radius: 14px;
+      cursor: pointer;
+      width: 100%;
+      transition: background 0.2s ease, transform 0.1s ease;
+    }
 
-				<!-- CTA -->
-					<section id="cta" class="wrapper style4">
-						<div class="inner">
-							<header>
-								<h2>Arcue ut vel commodo</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
-							</header>
-							<ul class="actions stacked">
-								<li><a href="#" class="button fit primary">Activate</a></li>
-								<li><a href="#" class="button fit">Learn More</a></li>
-							</ul>
-						</div>
-					</section>
+    button:hover {
+      background: #ff3b72;
+    }
 
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-						<ul class="copyright">
-							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
+    button:active {
+      transform: scale(0.97);
+    }
 
-			</div>
+    /* 📱 Mobile improvements */
+    @media (max-width: 480px) {
+      .card {
+        width: 90%;
+        padding: 22px;
+        border-radius: 16px;
+      }
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+      h1 {
+        font-size: 1.6rem;
+      }
 
-	</body>
+      #fact {
+        font-size: 1.1rem;
+      }
+
+      #countdown {
+        font-size: 0.8rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <h1>Boyfriend Facts</h1>
+    <p id="fact">Loading boyfriend thoughts…</p>
+    <p id="countdown"></p>
+    <button onclick="setNewFact()">Tell me another</button>
+  </div>
+
+  <script>
+    const facts = [
+      "If you say you're not hungry, he will still mentally prepare to share his food.",
+      "He knows the exact moment you steal his hoodie, even from another room.",
+      "He pretends not to notice your new haircut but absolutely noticed.",
+      "He has imagined at least one unnecessary but heroic scenario where he saves you.",
+      "He knows your order better than his own.",
+      "He will sacrifice comfort if it means you’re slightly more comfortable.",
+      "He says 'I'm fine' while actively overthinking everything.",
+      "He secretly loves when you fall asleep on him, even if his arm is dying.",
+      "He remembers small details he swears he forgot.",
+      "He will walk on the street side of the sidewalk without explaining why."
+    ];
+
+    const EIGHT_HOURS = 8 * 60 * 60 * 1000;
+
+    function getRandomFact() {
+      return facts[Math.floor(Math.random() * facts.length)];
+    }
+
+    function setNewFact() {
+      const fact = getRandomFact();
+      const now = Date.now();
+
+      document.getElementById("fact").textContent = fact;
+      localStorage.setItem("boyfriendFact", fact);
+      localStorage.setItem("lastUpdated", now);
+    }
+
+    function loadFact() {
+      const savedFact = localStorage.getItem("boyfriendFact");
+      const lastUpdated = localStorage.getItem("lastUpdated");
+
+      if (!savedFact || !lastUpdated || Date.now() - lastUpdated > EIGHT_HOURS) {
+        setNewFact();
+      } else {
+        document.getElementById("fact").textContent = savedFact;
+      }
+    }
+
+    function updateCountdown() {
+      const lastUpdated = localStorage.getItem("lastUpdated");
+      if (!lastUpdated) return;
+
+      const nextUpdate = Number(lastUpdated) + EIGHT_HOURS;
+      const remaining = nextUpdate - Date.now();
+
+      if (remaining <= 0) {
+        setNewFact();
+        return;
+      }
+
+      const hours = Math.floor(remaining / (1000 * 60 * 60));
+      const minutes = Math.floor((remaining / (1000 * 60)) % 60);
+      const seconds = Math.floor((remaining / 1000) % 60);
+
+      document.getElementById("countdown").textContent =
+        `Next boyfriend thought in ${hours}h ${minutes}m ${seconds}s`;
+    }
+
+    loadFact();
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+  </script>
+
+</body>
 </html>
